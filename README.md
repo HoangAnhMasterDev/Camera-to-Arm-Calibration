@@ -27,6 +27,7 @@ Calibration guide
 7) Run the calibration code
 
 	[TBase, TEnd, cameraParams] = CalCamArm(imageFolder, armMat, squareSize)
+
 		imageFolder- folder containing images
 
 		armMat- matrix holding arm base to end effector transformations
