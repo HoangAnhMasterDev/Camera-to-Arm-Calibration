@@ -28,13 +28,18 @@ Calibration guide
 
 	[TBase, TEnd, cameraParams] = CalCamArm(imageFolder, armMat, squareSize)
 		imageFolder- folder containing images
+
 		armMat- matrix holding arm base to end effector transformations
+
 		squareSize- width of a square on the chessboard in mm
+
 		TBase- 4x4 camera to arm base transformation matrix, distances in m
+
 		TEnd- 4x4 arm base to end effector transformation matrix, distances in m
+
 		cameraParams- camera parameters object containing distortions and camera matrix
 	
-8) The Calibration should be complete. For more details and optional inputs / outputs run
+9) The Calibration should be complete. For more details and optional inputs / outputs run
 
 	help CalCamArm
 
